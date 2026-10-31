@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# pi-crew internals
+.crew/
+
+# generated audio (regenerated at runtime by setup.py / haunted_mirror.py)
+sounds/*.wav
+
+# generated image captures
+*.png
